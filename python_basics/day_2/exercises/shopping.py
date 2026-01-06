@@ -26,4 +26,3 @@ print(items[0], items[2])
 items.append("grapes")
 items[1] = "banana"
 print(items)    
-
