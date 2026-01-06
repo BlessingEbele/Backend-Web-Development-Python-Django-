@@ -1,0 +1,156 @@
+Method 1: Use nano inside VS Code Terminal (Recommended for learning Linux)
+Step 1: Open the VS Code terminal
+
+In VS Code:
+
+Press `Ctrl + `` (backtick)
+OR
+
+Go to Terminal → New Terminal
+
+This opens a Linux/WSL terminal at the bottom of VS Code.
+
+Step 2: Navigate to your project folder
+
+Example:
+
+cd Alx_DjangoLearnLab
+
+
+(Use ls to confirm where you are.)
+
+Step 3: Create a file using nano
+nano example.txt
+
+
+If the file does not exist, nano creates it
+
+If it exists, nano opens it
+
+Step 4: Write your content
+
+Just start typing inside nano.
+
+Step 5: Save and exit nano
+
+Save: Ctrl + O → press Enter
+
+Exit: Ctrl + X
+
+Step 6: Open the file in VS Code editor
+
+Now open it visually:
+
+code example.txt
+
+
+Or just click it in the Explorer panel in VS Code.
+
+Method 2: Create file directly in VS Code (No nano)
+
+If your goal is simply to create a file (not practice Linux):
+
+Open Explorer in VS Code
+
+Click New File
+
+Name it (e.g. example.txt)
+
+Start typing
+
+��� This is the VS Code way.
+
+When should you use nano?
+
+Use nano when:
+
+You’re practicing Linux commands (ALX, backend training, servers)
+
+You SSH into a server where VS Code UI isn’t available
+
+You want quick edits from terminal
+
+Use VS Code editor when:
+
+Writing real project code
+
+Debugging
+
+Working with Django / Python apps
+
+Quick summary
+Goal	Best Tool
+Practice Linux	nano in VS Code terminal
+Create/edit code	VS Code editor
+Remote server edits	nano / vim
+
+
+nano keyboar shortcut cheat sheet. 
+
+
+🧠 Nano Basics
+
+Ctrl = Control key
+
+^ symbol in Nano means Ctrl
+
+Example:
+^O = Ctrl + O
+
+📂 File Operations
+Action	Shortcut
+Save file	Ctrl + O → Enter
+Exit nano	Ctrl + X
+Exit without saving	Ctrl + X → N
+Save & exit	Ctrl + O → Enter → Ctrl + X
+Open/Create file	nano filename
+✏️ Editing Text
+Action	Shortcut
+Cut (current line)	Ctrl + K
+Paste	Ctrl + U
+Delete character	Backspace / Delete
+Undo	Alt + U
+Redo	Alt + E
+Select text	Alt + A (start) → move cursor → Alt + A (end)
+🔍 Searching & Replacing
+Action	Shortcut
+Search	Ctrl + W
+Search next	Alt + W
+Replace	Ctrl + \
+Go to line number	Ctrl + _ → type number → Enter
+🧭 Navigation
+Action	Shortcut
+Beginning of line	Ctrl + A
+End of line	Ctrl + E
+Next page	Ctrl + V
+Previous page	Ctrl + Y
+Move cursor	Arrow keys
+🧾 Information & Help
+Action	Shortcut
+Help menu	Ctrl + G
+Show cursor position	Ctrl + C
+🚀 Most Important Shortcuts to Memorize (EXAM & REAL LIFE)
+
+✅ Ctrl + O → Save
+✅ Ctrl + X → Exit
+✅ Ctrl + K → Cut line
+✅ Ctrl + U → Paste
+✅ Ctrl + W → Search
+✅ Ctrl + _ → Go to line
+
+If you know just these, you’re safe.
+
+📝 Mini Practice Task (Recommended)
+
+Try this in VS Code terminal:
+
+nano test.txt
+
+
+Type 3 lines
+
+Cut one line → paste it elsewhere
+
+Search for a word
+
+Save and exit. 
