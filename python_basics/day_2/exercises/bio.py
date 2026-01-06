@@ -30,3 +30,10 @@ data = {
 }
 print(data)
 print(type(data))
+
+print(data["name"])
+print(data["age"])
+print(data["has_children"])
+print(data["hobbies"])
+data.remove("hobbies"])
+print(data)
