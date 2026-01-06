@@ -1,4 +1,4 @@
-''' í³ Exercise 2 â€” Shopping List Manager
+''' ï¿½ï¿½ï¿½ Exercise 2 â€” Shopping List Manager
 Create a file: shopping.py
 Requirements:
 Create a list of at least 5 items
@@ -17,4 +17,13 @@ Print the final list
 
 
 '''
+
+
+items = ["bread", "sugar", "avacado", "mango", "pear"]
+print(items)
+print(items[0], items[2])
+
+items.append("grapes")
+items[1] = "banana"
+print(items)    
 
