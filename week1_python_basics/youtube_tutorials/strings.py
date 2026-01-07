@@ -1,7 +1,7 @@
 message = 'hello world'
 print(message)
 print(message.count('hello'))# here the word hello apear once in our 'message'
-print(message.count('l'))#L appears more than once
+print(message.count('l'))# L appears more than once
 print(message.upper())
 print(message.lower())
 print(message.find('universe'))# this will ruture negative 1 (-1) because the word'universe' is not the the message
