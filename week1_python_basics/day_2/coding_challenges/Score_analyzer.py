@@ -179,3 +179,5 @@ else:
 
 
 
+if score < passing_mark:
+    score += bonus_points
