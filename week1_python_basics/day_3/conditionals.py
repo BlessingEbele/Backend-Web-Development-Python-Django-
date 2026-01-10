@@ -17,18 +17,36 @@ else:
 '''
 #simple innstruction statement
 
-tomorrow = 'saturday'
-yesterday = 'thursday'
-today = 'friday'
+# tomorrow = 'saturday'
+# yesterday = 'thursday'
+# today = 'friday'
 
 #getting input from user
-date = input(f'what day did the incident take place?:')
+# date = input(f'what day did the incident take place?:')
 
-if  date == today:
-    print("wow!, that was still fresh. i know it hurts but please take care of yourself.")
-elif date == yesterday:
-    print(f"'i was with them {yesterday} but still don't notice")
-elif date == tomorrow:
-    print(f"i'm pretty sure you already prepared for it")
+# if  date == today:
+#     print("wow!, that was still fresh. i know it hurts but please take care of yourself.")
+# elif date == yesterday:
+#     print(f"'i was with them {yesterday} but still don't notice")
+# elif date == tomorrow:
+#     print(f"i'm pretty sure you already prepared for it")
+# else:
+#     print(f"i'm speechless")
+
+
+#The if statememt + else statement
+#Syntax: 
+# condition = []
+# if condition:
+    #code runs when condition is true
+ 
+ #example
+
+
+
+age = int(input('what is you age?: '))
+
+if age >= 18:
+    print("You are an adult.")
 else:
-    print(f"i'm speechless")
+    print("you are not an adult yet")
