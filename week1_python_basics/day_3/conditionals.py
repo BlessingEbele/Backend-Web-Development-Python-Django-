@@ -44,17 +44,88 @@ else:
 
 
 
-age = int(input('what is you age?: '))
+# age = int(input('what is you age?: '))
+
+# if age >= 18:
+#     print("You are an adult.")
+# else:
+#     print("you are not an adult yet")
+
+# #use else when you need a fallback option.
+# age = int(input('what is your age?:'))
+
+# if age >= 18:
+#     print("You can vote.")
+# else:
+#     print("You cannot vote yet.")
+# #Using elif for multiple conditions 
+
+# #elif stands for “else if”.
+# # 
+# score = 75
+
+# if score >= 80:
+#     print("Excellent!")
+# elif score >= 60:
+#     print("Good job!")
+# else:
+#     print("You need to improve.")
+
+# #Combining Conditions
+# '''
+# Use logical operators:
+# Operator        Meaning
+# and             both conditions must be True
+# or              at least one condition must be True
+# not             reverses True/False
+# '''
+
+# #Example:
+# age = 25
+# has_id = True
+
+# if age >= 18 and has_id:
+#     print("Entry allowed.")
+# else:
+#     print("Entry denied.")
+
+
+# # Nested Conditionals
+
+# # A conditional inside another conditional.
+
+# age  = 19 
+# has_ticket = False
+
+# if age >= 18:
+#     if has_ticket:
+#         print('Welcome to the event')
+#     else:
+#         print('You Need a ticket')
+# else:
+#     print('You are too young.')
+
+#EXample 2
+age = 30
+height = 3.6
+is_female = True
+is_pregnant = True
+has_ticket = True
 
 if age >= 18:
-    print("You are an adult.")
+    print( ' you can ride the rollercoaster')
+    if height <= 3.6:
+        print('you are tall enough to ride the rollercoaster')
+        if is_female and is_pregnant:
+            print('unfortunaly,pregnant woment are not allowed to ride the rollercoaster for the safty of thier unborn child(ren)')
+            if has_ticket:
+                print('enjoy the rollercoaster')
+            else: 
+                print('please get a ticket')
+        else:
+            print('you are welcome to ride with us')
+        
+    else:
+        print('you need to grow more taller')
 else:
-    print("you are not an adult yet")
-
-#use else when you need a fallback option.
-age = int(input('what is your age?:'))
-
-if age >= 18:
-    print("You can vote.")
-else:
-    print("You cannot vote yet.")
+    print('you are too young')

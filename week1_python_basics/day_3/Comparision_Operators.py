@@ -1,20 +1,13 @@
 
 '''
 these operators help Python compare values.
-Operator
-Meaning
-==
-equal to
-!=
-not equal to
->
-greater than
-<
-less than
->=
-greater or equal
-<=
-less or equal
+Operator    Meaning
+==          equal to
+!=          not equal to
+>           greater than
+<           less than
+>=          greater or equal
+<=          less or equal
 
 '''
 #Example:
