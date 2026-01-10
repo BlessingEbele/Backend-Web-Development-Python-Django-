@@ -26,11 +26,9 @@ date = input(f'what day did the incident take place?:')
 
 if  date == today:
     print("wow!, that was still fresh. i know it hurts but please take care of yourself.")
-
-if date == yesterday:
+elif date == yesterday:
     print(f"'i was with them {yesterday} but still don't notice")
 elif date == tomorrow:
     print(f"i'm pretty sure you already prepared for it")
-
 else:
     print(f"i'm speechless")
