@@ -17,3 +17,14 @@ If temperature is:
 
 '''
 
+Temperature = 31
+
+
+if Temperature < 10:
+    print('Very cold!')
+elif Temperature >= 10 and Temperature <= 19:
+    print('Cold')
+elif Temperature >= 20 and Temperature <= 30:
+    print('Warm')
+else:
+    print('Too hot!')
