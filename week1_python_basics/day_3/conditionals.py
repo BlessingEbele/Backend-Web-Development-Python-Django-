@@ -109,21 +109,21 @@ else:
 age = 30
 height = 3.6
 is_female = True
-is_pregnant = True
-has_ticket = True
+is_pregnant = False
+has_ticket = False
 
 if age >= 18:
     print( ' you can ride the rollercoaster')
     if height <= 3.6:
         print('you are tall enough to ride the rollercoaster')
         if is_female and is_pregnant:
-            print('unfortunaly,pregnant woment are not allowed to ride the rollercoaster for the safty of thier unborn child(ren)')
+            print('unfortunately, pregnant women are not allowed to ride the rollercoaster for the safety of their unborn child(ren)')
+        else:
+            # print('pease get a ticket')
             if has_ticket:
                 print('enjoy the rollercoaster')
             else: 
                 print('please get a ticket')
-        else:
-            print('you are welcome to ride with us')
         
     else:
         print('you need to grow more taller')
