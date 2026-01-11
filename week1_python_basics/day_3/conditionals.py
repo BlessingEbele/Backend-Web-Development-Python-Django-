@@ -17,58 +17,58 @@ else:
 '''
 #simple innstruction statement
 
-# tomorrow = 'saturday'
-# yesterday = 'thursday'
-# today = 'friday'
+tomorrow = 'saturday'
+yesterday = 'thursday'
+today = 'friday'
 
 #getting input from user
-# date = input(f'what day did the incident take place?:')
+date = input(f'what day did the incident take place?:')
 
-# if  date == today:
-#     print("wow!, that was still fresh. i know it hurts but please take care of yourself.")
-# elif date == yesterday:
-#     print(f"'i was with them {yesterday} but still don't notice")
-# elif date == tomorrow:
-#     print(f"i'm pretty sure you already prepared for it")
-# else:
-#     print(f"i'm speechless")
+if  date == today:
+    print("wow!, that was still fresh. i know it hurts but please take care of yourself.")
+elif date == yesterday:
+    print(f"'i was with them {yesterday} but still don't notice")
+elif date == tomorrow:
+    print(f"i'm pretty sure you already prepared for it")
+else:
+    print(f"i'm speechless")
 
 
-#The if statememt + else statement
-#Syntax: 
-# condition = []
-# if condition:
-    #code runs when condition is true
+# The if statememt + else statement
+Syntax: 
+condition = []
+if condition:
+    code runs when condition is true
  
- #example
+ example
 
 
 
-# age = int(input('what is you age?: '))
+age = int(input('what is you age?: '))
 
-# if age >= 18:
-#     print("You are an adult.")
-# else:
-#     print("you are not an adult yet")
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("you are not an adult yet")
 
-# #use else when you need a fallback option.
-# age = int(input('what is your age?:'))
+#use else when you need a fallback option.
+age = int(input('what is your age?:'))
 
-# if age >= 18:
-#     print("You can vote.")
-# else:
-#     print("You cannot vote yet.")
-# #Using elif for multiple conditions 
+if age >= 18:
+    print("You can vote.")
+else:
+    print("You cannot vote yet.")
+#Using elif for multiple conditions 
 
-# #elif stands for “else if”.
-# # 
-# score = 75
+#elif stands for “else if”.
+# 
+score = 75
 
-# if score >= 80:
-#     print("Excellent!")
-# elif score >= 60:
-#     print("Good job!")
-# else:
-#     print("You need to improve.")
+if score >= 80:
+    print("Excellent!")
+elif score >= 60:
+    print("Good job!")
+else:
+    print("You need to improve.")
 
 
