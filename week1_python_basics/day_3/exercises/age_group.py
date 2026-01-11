@@ -1,5 +1,5 @@
 '''
-í³ Exercise 4 â€” Age Group Classifier
+ï¿½ï¿½ï¿½ Exercise 4 â€” Age Group Classifier
 Create: age_group.py
 Rules:
 0â€“12 â†’ Child

@@ -1,5 +1,5 @@
 '''
-í³ Exercise 5 â€” Bonus (Challenge)
+ï¿½ï¿½ï¿½ Exercise 5 â€” Bonus (Challenge)
 Create: bank.py
 Simulate:
 If balance > 500, print â€œYou can withdraw.â€

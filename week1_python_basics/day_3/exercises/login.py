@@ -1,5 +1,5 @@
 '''
-í³ Exercise 3 â€” Login System
+ï¿½ï¿½ï¿½ Exercise 3 â€” Login System
 Create: login.py
 Store correct username & password
 
