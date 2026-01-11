@@ -119,7 +119,7 @@ if age >= 18:
         if is_female and is_pregnant:
             print('unfortunately, pregnant women are not allowed to ride the rollercoaster for the safety of their unborn child(ren)')
         else:
-            # print('pease get a ticket')
+            # print('pease get a ticket')there is no need add this. 
             if has_ticket:
                 print('enjoy the rollercoaster')
             else: 
@@ -129,3 +129,5 @@ if age >= 18:
         print('you need to grow more taller')
 else:
     print('you are too young')
+
+
