@@ -1,5 +1,4 @@
-'''
-# ��� Python Code Challenge 2: Sales & Inventory Analyzer
+��� Python Code Challenge 2: Sales & Inventory Analyzer
 
 ## ��� Scenario
 
@@ -110,8 +109,15 @@ prices = [500, 300, 200, 500, 300, 1000, 200]
 
 #Calculate **total items sold
 TotalItemSold = sum(quantities)
-print(f"Total item sold: {TotalItemSold}")
+print(TotalItemSold)
+#total revenue
 
+# revenue = {
+#     TotalRiceSold == quantities[0] * prices[0]
+#}
+
+# print({products[0]})
+# print(TotalRiceSold)
 '''
 to Calculate the total revenue multiply the 
 Quantity Sold by the Price Per Unit,
@@ -124,38 +130,3 @@ Quantity Sold by the Price Per Unit,
  Basic Calculation (Single Product) Identify Quantity: Count the total number of units sold (e.g., 1,000 t-shirts).Determine Price: Find the price for each unit (e.g., $10 per t-shirt).Multiply: \(1,000\text{\ units}\times \$10/\text{unit}=\$10,000\text{\ Total\ Revenue}\). For Multiple Products/Services (Gross Revenue) Calculate the revenue for each product/service individually and then add them together.Example: A company sells 500 phones at $800 each and 200 laptops at $1,200 each.Phones: \(500\times \$800=\$400,000\)Laptops: \(200\times \$1,200=\$240,000\)Total Gross Revenue: \(\$400,000+\$240,000=\$640,000\). Calculating Net Revenue (After Adjustments) Start with your gross revenue and subtract returns, allowances, and discounts.Formula: Total Revenue = (Quantity Sold x Unit Price) - Discounts - Returns. 
  '''
 # TotalRevenue = Quantity Sold x Price Per Unit
-
-total_revenue = 0
-for i in range(len(quantities)):
-    total_revenue += quantities[i] * price[i]
-    print(f"Total revenue: N{total_revenue}")
-
-# 2️⃣ Set Operations
-#Extract unique products
-unique_products = set(products)
-print(f"Unique products: {unique_products}")
-
-#count different products
-different_products_count = len(unique_products)
-print(f"Number of different products: {different_products_count}")
-
-
-# 3️⃣ Tuple Operations
-#create tuple for each sale; (product_name, quatity, price. revenue)
-sales_tuples = []
-for i in range(len(products)):
-    revenue = quantities[i] * prices[i]
-    sale_tuple = (products[i], quantities[i], prices[i], revenue)
-    sales_tuples.append(sale_tuple)
-print("\nSales Tuples:")
-
-for sale in sales_tuples:
-    print(sale)
-
-
-# 4️⃣ Operator & Conditional Logic
-
-
-
-# 5️⃣ Membership & Logical Operators
-
