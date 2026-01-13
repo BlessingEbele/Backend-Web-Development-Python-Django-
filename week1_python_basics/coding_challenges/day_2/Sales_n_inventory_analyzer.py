@@ -154,8 +154,70 @@ for sale in sales_tuples:
 
 
 # 4️⃣ Operator & Conditional Logic
+#count sales with revenue > N3000
+high_revenue_count = 0
+for sale in sales_tuples:
+    if sale[3] > 3000:  #sale[3] is revenue
+        high_revenue_count += 1
+print(f"\nSales with revenue > 300: {high_revenue_count}")
 
+#Apply 10% discount to slaes where quantity >= 8
+print("\n Sales with 10% discount (quantity >= 8):")
+for sale in sales_tuples: 
+    if sale[1] >= 8: #sales[1] quantity
+        discounted_revenue = sale[3] * 0.9  #10% discount
+        print(f"{sale[0]}: original N{sale[3]}, Discounted N{discounted_revenue}")
 
 
 # 5️⃣ Membership & Logical Operators
+#check if "oil" was sold
+oil_sold = "salt" in products
+print(f"Oild was sold but salt was not sold")
 
+#Bonus
+#find highest revenue sale
+highest_revenue_sale = sales_tuples[0]
+for sale in sales_tuples:
+    if sale[3] > highest_revenue_sale[3]:
+        highest_revenue_sale = sale
+print(f"\nHighest revenue sale: {highest_revenue_sale}")
+
+#sort slaes by revenue (highest to lowest)
+sorted_sales = sorted(sales_tuples, key=lambda x: x[3], reverse = True)
+print("\nSales sorted by revenue(highest to lowest): ")
+for sale in sorted_sales:
+    print(sale)
+
+#Ternary operator for discount logic
+print("\nUsing ternary operator for discount:")
+for sale in sales_tuples:
+    final_revenue = sale[3] * 0.9 if sale[1] >= 8 else sale[3] discount_status = "with discount" if sale[1] >= 8 else "no discount"
+    print(f"{sal[0]}: N{final_revenue} ({discount_status})")
+
+'''
+Key Points Explained:
+1️⃣ Total Revenue Calculation:
+
+Loop through each index
+Multiply quantities[i] * prices[i]
+Add to running total
+2️⃣ Set for Unique Products:
+
+set(products) automatically removes duplicates
+3️⃣ Tuples:
+
+Create a tuple for each sale with 4 elements
+Store in a list
+4️⃣ Conditional Logic:
+
+Use if statements to check conditions
+Access tuple elements by index: sale[3] for revenue
+5️⃣ Membership Operators:
+
+in checks if item exists in list
+and/or combine conditions
+Bonus:
+
+Ternary: value_if_true if condition else value_if_false
+sorted() with key parameter sorts by specific element
+'''
