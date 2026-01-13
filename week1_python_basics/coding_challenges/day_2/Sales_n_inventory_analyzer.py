@@ -127,8 +127,8 @@ Quantity Sold by the Price Per Unit,
 
 total_revenue = 0
 for i in range(len(quantities)):
-    total_revenue += quantities[i] * price[i]
-    print(f"Total revenue: N{total_revenue}")
+    total_revenue += quantities[i] * prices[i]
+print(f"Total revenue: N{total_revenue}")
 
 # 2️⃣ Set Operations
 #Extract unique products
@@ -171,8 +171,16 @@ for sale in sales_tuples:
 
 # 5️⃣ Membership & Logical Operators
 #check if "oil" was sold
-oil_sold = "salt" in products
-print(f"Oild was sold but salt was not sold")
+oil_sold = "oil" in products
+print(f"Was oil sold? {oil_sold}")
+
+#check if "salt" was sold
+salt_sold = "salt" in products
+print(f"Was salt sold? {salt_sold}")
+
+#Using and/or operators
+if oil_sold and not salt_sold:
+    print("Oil was sold but salt was not sold")
 
 #Bonus
 #find highest revenue sale
@@ -191,8 +199,9 @@ for sale in sorted_sales:
 #Ternary operator for discount logic
 print("\nUsing ternary operator for discount:")
 for sale in sales_tuples:
-    final_revenue = sale[3] * 0.9 if sale[1] >= 8 else sale[3] discount_status = "with discount" if sale[1] >= 8 else "no discount"
-    print(f"{sal[0]}: N{final_revenue} ({discount_status})")
+    final_revenue = sale[3] * 0.9 if sale[1] >= 8 else sale[3]
+    discount_status = "with discount" if sale[1] >= 8 else "no discount"
+    print(f"{sale[0]}: N{final_revenue} ({discount_status})")
 
 '''
 Key Points Explained:
