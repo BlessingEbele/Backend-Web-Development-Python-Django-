@@ -4,10 +4,11 @@ Bonus (Optional Stretch Challenge)
 If you want to challenge strong learners:
 
 Create:
-í±‰ motivator.py
+ï¿½ï¿½ï¿½ motivator.py
 
 Output:
 
 Keep going! Every great backend developer started with Hello World.
 '''
 
+print("Keep going! Every great backend developer started with Hello World.")
