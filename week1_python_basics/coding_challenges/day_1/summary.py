@@ -2,7 +2,7 @@
 Challenge 10: Day 1 Summary Generator
 
 Create:
-í±‰ day1_summary.py
+ï¿½ï¿½ï¿½ day1_summary.py
 
 Make the program print:
 
@@ -15,3 +15,8 @@ Today I learned:
 
 Goal: Reflection + coding habit.
 '''
+print("Today I learned:")
+print("- What backend development is")
+print("- How to install Python and VS Code")
+print("- How to use the terminal")
+print("- How to write my first Python programs")

@@ -18,3 +18,5 @@ Welcome, Blessing! Your backend journey has begun.
 Goal: Variables + print formatting.
 '''
 
+name = "Blessing"
+print(f"Welcome, {name}! Your backend journey has begun.")
