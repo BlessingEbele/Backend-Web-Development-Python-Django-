@@ -14,7 +14,7 @@ cd backend_practice
 
 
 Create a file:
-í±‰ practice.py
+ï¿½ï¿½ï¿½ practice.py
 
 Inside it, print:
 
@@ -23,3 +23,4 @@ I created this using the terminal like a real developer.
 
 Goal: Build confidence with terminal workflow.
 '''
+print("I have done the challenge")
