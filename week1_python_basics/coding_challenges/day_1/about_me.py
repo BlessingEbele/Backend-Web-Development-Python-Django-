@@ -1,9 +1,8 @@
-
 '''
 Challenge 3: About Me Script
 
 Create:
-í±‰ about_me.py
+ï¿½ï¿½ï¿½ about_me.py
 
 Use variables for:
 
@@ -17,7 +16,11 @@ Then print a sentence like:
 
 My name is Blessing. I live in Nigeria. I want to become a backend developer.
 
-
 Goal: Multiple variables in output.
 '''
 
+#Declaring variables
+name = "Blessing"
+country = "Nigeria"
+career_goal = "backend developer"
+print(f"My name is {name}. Im live in {country}. I want to become a {career_goal}.")
