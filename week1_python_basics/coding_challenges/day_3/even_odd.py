@@ -2,7 +2,7 @@
 Challenge 4: Even or Odd
 
 Create:
-í±‰ even_odd.py
+ï¿½ï¿½ï¿½ even_odd.py
 
 Store a number
 
@@ -18,3 +18,8 @@ Odd number
 
 Concept: Modulus operator %
 '''
+number = 5
+if number % 2 == 0:
+    print("It is an even number")
+else:
+    print("it is a odd number")
