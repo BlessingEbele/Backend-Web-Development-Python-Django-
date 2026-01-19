@@ -2,7 +2,7 @@
 Challenge 9: Simple ATM Decision
 
 Create:
-í±‰ atm.py
+ï¿½ï¿½ï¿½ atm.py
 
 Store:
 
@@ -16,4 +16,12 @@ Else â†’ "Insufficient funds"
 
 Concept: Real-world logic
 '''
+balance = 5000
+withdraw = 2000
+
+if withdraw <= balance:
+    print("Transaction successfull")
+else:
+    print("Insufficient Fund")
+
 
