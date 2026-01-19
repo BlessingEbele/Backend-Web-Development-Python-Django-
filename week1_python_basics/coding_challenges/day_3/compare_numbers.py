@@ -2,7 +2,7 @@
 Challenge 3: Number Comparison
 
 Create:
-í±‰ compare_numbers.py
+ï¿½ï¿½ï¿½ compare_numbers.py
 
 Store two numbers:
 
@@ -16,4 +16,10 @@ Else â†’ print "b is greater"
 
 Concept: Greater than operator
 '''
+a = 10
+b = 20
 
+if a > b :
+    print("is a greater")
+else: 
+    print("b is greater")
