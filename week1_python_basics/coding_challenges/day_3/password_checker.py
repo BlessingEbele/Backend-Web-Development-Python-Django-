@@ -2,7 +2,7 @@
 Challenge 2: Password Validator
 
 Create:
-í±‰ password_checker.py
+ï¿½ï¿½ï¿½ password_checker.py
 
 Store a password:
 
@@ -21,3 +21,8 @@ Access denied
 
 Concept: Equality comparison
 '''
+password = "python123"
+if password == "python123":
+    print("Access granted")
+else: 
+    print("Access denied")
