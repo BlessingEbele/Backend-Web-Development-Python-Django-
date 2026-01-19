@@ -2,7 +2,7 @@
 Challenge 5: Grade Checker
 
 Create:
-í±‰ grade.py
+ï¿½ï¿½ï¿½ grade.py
 
 Store a score:
 
@@ -23,3 +23,12 @@ Print the grade.
 
 Concept: if / elif / else
 '''
+score = 65
+if score >= 70:
+    print("Grade: A")
+elif score >= 60:
+    print("Grade: B")
+elif score >= 50:
+    print("Grade: C")
+else:
+    print("Fail")
