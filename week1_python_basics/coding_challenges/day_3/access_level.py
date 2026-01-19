@@ -21,3 +21,13 @@ Concept: Role-based decision logic (real backend concept)
 
 '''
 
+role = "editor"
+if role == "admin":
+    print("Full access")
+elif role == "editor":
+    print("Limited access")
+else:
+    print("View only")
+
+
+
