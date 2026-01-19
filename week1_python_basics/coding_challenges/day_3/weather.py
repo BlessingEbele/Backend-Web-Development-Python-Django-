@@ -2,7 +2,7 @@
 Challenge 7: Temperature Advisor
 
 Create:
-í±‰ weather.py
+ï¿½ï¿½ï¿½ weather.py
 
 Store:
 
@@ -19,4 +19,10 @@ Else â†’ "It's cold"
 
 Concept: Range checks
 '''
-
+temperature = 24
+if temperature >= 35:
+    print("It's too hot")
+elif temperature >= 25 and temperature  <= 34: 
+    print("The weather is warm")
+else: 
+    print("It's cold")
