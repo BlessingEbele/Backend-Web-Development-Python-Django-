@@ -77,3 +77,20 @@ If score is above 100 or below 0 → print
 That introduces validation logic (very important in backend development).
 '''
 
+student_name = str(input("Enter your name: "))
+student_score = int(input("Enter your score: "))
+print(f"Student: {student_name}")
+
+# Validate score first
+if student_score < 0 or student_score > 100:
+    print(f"Score: {student_score}\nInvalid score entered.")
+elif student_score >= 70:
+    print(f"Score: {student_score}\nGrade: A\nExcellent performance!")
+elif student_score >= 60:
+    print(f"Score: {student_score}\nGrade: B\nVery good, keep it up!")
+elif student_score >= 50:
+    print(f"Score: {student_score}\nGrade: C\nGood, you can improve.")
+elif student_score >= 40:
+    print(f"Score: {student_score}\nGrade: D\nTry harder next time.")
+else:
+    print(f"Score: {student_score}\nGrade: F\nYou need to work much harder.")
