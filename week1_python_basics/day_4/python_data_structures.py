@@ -21,7 +21,7 @@ print(f"Fruits after manipulations {fruits}")
 
 # Accessing the items in the list
 print(fruits[0]) # this will print the first item on the list
-print(fruits[-0]) #this will always print the last item on the list regardless of the number of items on that list.
+print(fruits[-1]) #this will always print the last item on the list regardless of the number of items on that list.
 
 
 # List slicing
@@ -75,7 +75,7 @@ print(f"the difference btw a and b is :{a.difference(b)}")   # {1, 2} this shows
 student= {
     "name": "Blessing", 
     "age": 20,
-    "course": "Bacckend Dev."
+    "course": "Backend Dev."
 }
 print(f"The student is :{student}")
 
@@ -93,7 +93,7 @@ print(f"the student updated data: {student}")
 #Looping Through a Dictionary
 for key, value in student.items():
     print(key, ":", value)
-for key in student.items():
+for key in student.keys():
     print(f"the keys: {key}")
 
     
