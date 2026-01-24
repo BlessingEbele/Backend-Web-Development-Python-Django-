@@ -67,3 +67,33 @@ b = {3, 4, 5}
 print(f"the union of a and b is : {a.union(b)}")        # {1, 2, 3, 4, 5} the unites a and b together and print the result.
 print(f"the intersection of a and ab {a.intersection(b)}") # {3} this shows what a and b has in common
 print(f"the difference btw a and b is :{a.difference(b)}")   # {1, 2} this shows the difference btw a and b
+
+#Dictionaries (Key-Value Pairs)
+#dictionaries store data in key -- Value format.
+
+#Creating Dictionaries
+student= {
+    "name": "Blessing", 
+    "age": 20,
+    "course": "Bacckend Dev."
+}
+print(f"The student is :{student}")
+
+#Accessing Values
+print(student["name"])
+print(student.get("course"))
+print(student["course"])
+print(student.get("name"))
+
+#Modifying Dictionaries
+student["age"] = 21
+student["city"] = "Abuja"
+print(f"the student updated data: {student}")
+
+#Looping Through a Dictionary
+for key, value in student.items():
+    print(key, ":", value)
+for key in student.items():
+    print(f"the keys: {key}")
+
+    
