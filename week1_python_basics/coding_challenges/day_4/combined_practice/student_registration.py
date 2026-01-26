@@ -2,7 +2,7 @@
 Challenge 1: Student Registration System
 
 Create a file:
-í±‰ student_registration.py
+ï¿½ï¿½ï¿½ student_registration.py
 
 Requirements:
 
@@ -31,3 +31,14 @@ Print "Please complete your registration"
 
 Concepts tested: variables, booleans, lists, if/else
 '''
+name = "Blessing"
+age = 30
+is_registered = True
+
+courses = ["Python", "Git", "Backend Basics"]
+
+if is_registered == True:
+    print(f"{name}: course {courses}")
+else:
+    print("Please complete your registration")
+    
