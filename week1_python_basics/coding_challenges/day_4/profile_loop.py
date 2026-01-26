@@ -2,7 +2,7 @@
 Challenge 10: Dictionary Looping
 
 Create:
-í±‰ profile_loop.py
+ï¿½ï¿½ï¿½ profile_loop.py
 
 Given:
 
@@ -24,4 +24,13 @@ city : Abuja
 
 Concepts: looping through dictionary with .items()
 '''
+
+student = {
+    "name": "Blessing",
+    "age": 21,
+    "course": "Backend Dev",
+    "city": "Abuja"
+}
+for key, value in student.items():
+    print(key, ":", value)
 
