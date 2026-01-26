@@ -15,3 +15,6 @@ Which one uses key-value pairs?
 Which one removes duplicates automatically?
 '''
 
+print("the data structure that allows duplicated is lists")
+print("the data structure that is immutable is tuple")
+print("the data structure that uses key-value is dictionary")
