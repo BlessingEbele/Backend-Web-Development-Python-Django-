@@ -2,7 +2,7 @@
 Challenge 4: Mixed Data List
 
 Create:
-í±‰ mixed_list.py
+ï¿½ï¿½ï¿½ mixed_list.py
 
 Create a list that contains:
 
@@ -17,3 +17,12 @@ Print each item on a new line.
 Concepts: mixed data types
 '''
 
+my_data = ["Blessing", 30, True]# string, int, boolean
+print(my_data[0])
+print(my_data[1])
+print(my_data[2])
+
+# or 
+my_data2 = ["Blessing", 30, True]
+for item in my_data2:
+    print(f"My data: {item}")
