@@ -2,7 +2,7 @@
 Challenge 5: Backend Access Control (Real-world logic)
 
 Create:
-í±‰ access_control.py
+ï¿½ï¿½ï¿½ access_control.py
 
 Given:
 
@@ -21,3 +21,14 @@ Else â†’ print "View only access"
 
 Concepts tested: tuples, variables, conditionals, backend-style logic
 '''
+user = ("Blessing", "admin")   # tuple (name, role)
+name = user[0]
+role = user[1]
+
+if role == "admin":
+    print("Full access")
+elif role == "editor":
+    print("Limited Access")
+else:
+    print("View only")
+    
