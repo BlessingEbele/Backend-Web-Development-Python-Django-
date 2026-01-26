@@ -19,3 +19,8 @@ Difference (a - b)
 
 Concepts: set operations
 '''
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+print(f"the union: {a.union(b)}")
+print(f"The intersection: {a.intersection(b)}")
+print(f"The difference: {a.difference(b)}")
