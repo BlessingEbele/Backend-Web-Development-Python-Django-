@@ -30,3 +30,18 @@ Else → print "Minor user"
 Concepts tested: dictionary, list inside dict, modification, if/else 
 '''
 
+user = {
+    "username": "blessing_dev",
+    "age": 22,
+    "city": "Lagos"
+}
+print(user["username"])
+user["age"] = 32
+user["skills"] = ["coding", "writing"]
+
+if user["age"] >= 18:
+    print("Adult user")
+else:
+   print("Minor user")
+
+print(user)
