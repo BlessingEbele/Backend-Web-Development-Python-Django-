@@ -2,7 +2,7 @@
 Challenge 2: Shopping Cart Checker
 
 Create:
-í±‰ shopping_cart.py
+ï¿½ï¿½ï¿½ shopping_cart.py
 
 Given:
 
@@ -22,3 +22,11 @@ Else â†’ print "Item not available"
 Concepts tested: lists, sets, duplicates, conditionals '
 '''
 
+cart = ["rice", "beans", "oil", "rice", "beans"]
+cart_set = set(cart)
+print(f"The unique items: {cart_set}")
+
+if "oil" in cart_set:
+    print("Item available")
+else:
+    print("Item not available")
