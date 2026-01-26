@@ -2,7 +2,7 @@
 Challenge 2: Guest List Update
 
 Create:
-í±‰ guests.py
+ï¿½ï¿½ï¿½ guests.py
 
 Start with:
 
@@ -20,3 +20,8 @@ Print the final list
 Concepts: insert(), remove()
 '''
 
+guests = ["John", "Mary", "Paul", "Aisha"]
+guests.insert(1, "Blessing") #== "Blessing"
+guests.remove("Paul")
+guests.append("chika, Emeka")
+print(guests)
