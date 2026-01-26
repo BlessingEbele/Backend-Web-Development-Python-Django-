@@ -2,7 +2,7 @@
 Challenge 1: My Shopping List (Lists)
 
 Create a file:
-í±‰ shopping_list.py
+ï¿½ï¿½ï¿½ shopping_list.py
 
 Create a list of at least 5 items.
 
@@ -15,3 +15,7 @@ Print the updated list.
 Concepts: list creation, indexing, append '
 '''
 
+items = ["sugar", "honey", "pear", "orange", "mango"]
+print(f"the first item on the list:{items[0]}")
+items.append("grape")
+print(f"The updated list: {items}")
